@@ -1,6 +1,8 @@
 # var2wormtable
 An Arvados pipeline template, var files to wormtable (for use in http://github.com/ga4gh/server circa late-2014) 
 
+These files originally existed in a gist: https://gist.github.com/nouyang-curoverse/18ed94b4b50c305f2fad
+
 ## Overview
 
 These set of shell scripts are combined in a way (described by the pipeline template for running automatically in Arvados) that goes from a set of VAR files to a set of wormtable files suitable for import into the GA4GH reference server implementation circa late 2014. 
