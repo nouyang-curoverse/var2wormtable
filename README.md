@@ -14,6 +14,10 @@ These set of shell scripts are combined in a way (described by the pipeline temp
 This file uses cgatools mkvcf to convert the VAR files into VCF files.
 http://cgatools.sourceforge.net/docs/1.6.0/cgatools-command-line-reference.html#mkvcf
 
+This bash script is complicated because cgatools is VERY picky about the directory structure and file names. Here's what the resultant directory might look like:
+![screenshot of directory set up for cgatools mkvcf](/cgatools-mkvcf.png?raw=true "screenshot of directory set up for cgatools mkvcf")
+
+
 Input: a directory with a lot of VAR files in it, ending in .tsv.bz2, e.g. hu132B5C.tsv.bz2
 
 Output: a directory with a lot of VCF files in it, ending in .vcf, e.g. hu132B5C.vcf
